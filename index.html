@@ -4,7 +4,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <title>Кастомный виджет!</title>
+    <style>
+        @media (min-width: 768px) {
+            .justwidget.sided{
+            max-height: 100% !important;
+            width: 50%;
+            }
+            .justwidget.sided .justwidget--inner {
+                width: 100% !important;
+                max-width: 100% ;
+            }
+        }
+    </style>
 </head>
 <body>
     <script src="https://bot.aimylogic.com/chatwidget/4a43858f-ed05-4e56-b064-0755ad7c79fb/justwidget.js" async></script>
